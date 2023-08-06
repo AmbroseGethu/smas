@@ -1,0 +1,34 @@
+.purchase__container {
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  max-height: 100vh;
+  overflow: scroll;
+  padding: 30px 50px;
+  background: #f4abc4;
+}
+.purchase__container::-webkit-scrollbar {
+  display: none;
+
+  /* For Firefox */
+  scrollbar-width: none;
+
+  /* For IE/Edge */
+  -ms-overflow-style: none;
+}
+
+.purchase__inputLabel {
+  font-size: 14px;
+}
+
+.purchase__numberInput::-webkit-outer-spin-button,
+.purchase__numberInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.purchase__inputLabel {
+  color: #000;
+  font-size: 16px;
+}

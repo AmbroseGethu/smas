@@ -1,0 +1,29 @@
+.table,
+.th,
+.td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  position: relative;
+  padding: 5px;
+}
+.main {
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.td:hover::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.bEF89SXUE1Zh_CzjZo90CQHaHa%26pid%3DApi&f=1&ipt=86529881416eb9ddb58987eef6ce6e6c82cbf19b26efa13769fc4a220c50b6b5&ipo=images");
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: aqua;
+  cursor: pointer;
+}

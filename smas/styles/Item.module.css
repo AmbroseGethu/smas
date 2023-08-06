@@ -1,0 +1,55 @@
+.formGridContainer {
+  /* background: aqua; */
+  width: 100%;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.form__itemContainer {
+  /* background-color: hotpink; */
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.item__inputField {
+}
+
+.itemNav {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.itemNavActive {
+  /* background-color: #03a9f4; */
+  background-color: black;
+  color: white;
+  transition: all 0.1s ease-in;
+}
+.itemNavNotActive {
+  background-color: transparent;
+  /* color: #03a9f4; */
+  color: black;
+  font-weight: lighter;
+  transition: all 0.1s ease-in;
+}
+.itemNavUl {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 24px;
+  padding: 0;
+}
+.itemNavLi {
+  padding: 10px 80px;
+  border-radius: 5px;
+  cursor: pointer;
+  /* border: 2px solid #03a9f4; */
+  border: 2px solid #000;
+  list-style: none;
+}

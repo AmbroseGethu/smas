@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.MainAppContainer {
+  display: flex;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
